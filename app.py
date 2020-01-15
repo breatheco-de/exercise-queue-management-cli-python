@@ -6,7 +6,8 @@ def show_main_menu():
             - Type 1: For adding someone to the Queue.
             - Type 2: For removing someone from the Queue.
             - Type 3: For printing the current Queue state.
-            - Type 4: To quit
+            - Type 4: To export the queue to a JSON file.
+            - Type 5: To quit
     ''');
     response = input()
     return response
@@ -29,9 +30,9 @@ def start():
             print("❌ Invalid option "+str(option))
         
         # now, lets intepret the option
-        if option > 4:
+        if option > 5:
             print("❌ Invalid option "+str(option))
-        elif option == 4:
+        elif option == 5:
             print("Bye bye!")
             return None
 
