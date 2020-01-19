@@ -23,8 +23,8 @@ def show_main_menu():
     return response
     
 def print_queue():
-    
-    return response
+    # you must print on the console the entire queue list
+    pass
     
 def start():
     
