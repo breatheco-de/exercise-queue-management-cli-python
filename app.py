@@ -6,6 +6,10 @@ if sys.version_info[0] < 3:
 #there exercise code starts here
 from DataStructures import Queue
 
+# there queue has to be declared globally (outside any other function)
+# that way all methods have access to it
+queue = Queue(mode="FIFO")
+
 def show_main_menu():
     print('''
         What would you like to do (type a number and the enter key)?
@@ -23,7 +27,6 @@ def print_queue():
     return response
     
 def start():
-    queue = Queue(mode="FIFO")
     
     print("Hello, this is the Command Line Interface for a Queue Managment application.");
     while True:
