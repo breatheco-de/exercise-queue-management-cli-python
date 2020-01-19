@@ -1,7 +1,7 @@
 #validating python version
 import sys
 if sys.version_info[0] < 3:
-    raise Exception("You must use Python 3, try running $ python3 app.py or updating the python interpreter")
+    print("Error: You must use Python 3, try running $ python3 app.py or updating the python interpreter")
 
 #there exercise code starts here
 from DataStructures import Queue
