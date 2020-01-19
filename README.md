@@ -9,5 +9,5 @@ For exercise instructions [click here](https://projects.breatheco.de/project/que
 Clone this repository and run the project by typing the following on your command line:
 
 ```bash
-python app.py
+python3 app.py
 ```
