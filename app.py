@@ -3,7 +3,7 @@ import sys
 if sys.version_info[0] < 3:
     print("Error: You must use Python 3, try running $ python3 app.py or updating the python interpreter")
 
-#there exercise code starts here
+#their exercise code starts here
 import json
 from DataStructures import Queue
 
@@ -13,7 +13,7 @@ queue = Queue(mode="FIFO")
 
 def show_main_menu():
     print('''
-What would you like to do (type a number and the enter key)?
+What would you like to do (type a number and press Enter)?
     - Type 1: For adding someone to the Queue.
     - Type 2: For removing someone from the Queue.
     - Type 3: For printing the current Queue state.
@@ -31,7 +31,7 @@ def print_queue():
         
 def start():
     
-    print("Hello, this is the Command Line Interface for a Queue Managment application.");
+    print("\nHello, this is the Command Line Interface for a Queue Managment application.");
     while True:
         
         option = show_main_menu()
