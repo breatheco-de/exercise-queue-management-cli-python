@@ -1,8 +1,8 @@
 {
-	"slug" : "queue-management-cli",
-	"title" : "Queue Managment CLI",
+	"slug" : "queue-management-cli-python",
+	"title" : "Queue Managment CLI with Python",
 	"description": "Terminal-based queue management application",
-    "solution": "https://github.com/breatheco-de/exercise-queue-management-cli/tree/solution",
+    "solution": "https://github.com/breatheco-de/exercise-queue-management-cli-python/tree/solution",
 	"status": "published",
 	"live-url": "",
 	"duration" : 8,
