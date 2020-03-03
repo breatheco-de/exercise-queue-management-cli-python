@@ -7,11 +7,16 @@ Queue systems can also be used to load balancing for different applications like
 - Network packages.
 - etc.
 
+A queue is just a list of elements that must be process an a particular order: FIFO and FILO.
+
+Today we are going to build a Queue system with FIFO approach for restorants: If a new clients arrives to the restorant it gets added into a queue, when it is his time to eat, he gets notified by email.
+
 ## 📝 Instructions
 
 1. Clone the [following boilerplate](https://github.com/breatheco-de/exercise-queue-management-cli)
 2. Update the app.py file to allow the user to manage a simple Queue: Add a person, Remove person, get current line (queue).
 3. The application also needs to be able to export the queue to a file named `queue.json`.
+4. The application must integrate with the twilio API to send an SMS every time a phone number is dequeued.
 4. Use the following data-structure to implement the queue:
 
 ```python
@@ -41,8 +46,9 @@ class Queue:
 2. The application ads Bob and notifies confirmation on the console and must say how many people are in front of him on the line.
 3. The system now shows the menu (starts again) awaiting for the user to pick another option.
 4. If the user picks the option to remove from the Queue, the next person on the queue gets eliminated and confirmation message shows.
-5. If the user picks to see the entire queue state, a list of everyone gets printed with their respective position in the queue.
-6. If the user picks to export entire queue, a JSON file with a list of everyone gets created.
+5. The user must receive an SMS when it is his/her time to eat.
+6. If the user picks to see the entire queue state, a list of everyone gets printed with their respective position in the queue.
+7. If the user picks to export entire queue, a JSON file with a list of everyone gets created.
 
 ## 📖 Fundamentals
 
