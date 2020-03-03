@@ -14,10 +14,12 @@ Today we are going to build a Queue system with FIFO approach for restorants: If
 ## 📝 Instructions
 
 1. Clone the [following boilerplate](https://github.com/breatheco-de/exercise-queue-management-cli)
-2. Update the app.py file to allow the user to manage a simple Queue: Add a person, Remove person, get current line (queue).
-3. The application also needs to be able to export the queue to a file named `queue.json`.
-4. The application must integrate with the twilio API to send an SMS every time a phone number is dequeued.
-4. Use the following data-structure to implement the queue:
+2. Get inside the environment by typing `$ pipenv shell`
+3. You can run the current project by typing `$ python src/app.py`
+4. Start coding! Update the app.py file to allow the user to manage a simple Queue: Add a person, Remove person, get current line (queue).
+5. The application also needs to be able to export the queue to a file named `queue.json`.
+6. The application must integrate with the twilio API to send an SMS every time a phone number is dequeued.
+7. Use the following data-structure to implement the queue:
 
 ```python
 class Queue:
