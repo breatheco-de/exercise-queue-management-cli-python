@@ -2,14 +2,14 @@
 
 Lets create a Queue System: Queue system are heavily used in Goverment institutions, airports, banks and many other venues looking to organize the incoming traffic.
 Queue systems can also be used to load balancing for different applications like:
-- Stablishing priorities in web servers incoming requests.
-- Inmigration and visa applicantions that need to be prioritized.
+- Establishing priorities in web servers incoming requests.
+- Immigration and visa applicantions that need to be prioritized.
 - Network packages.
 - etc.
 
-A queue is just a list of elements that must be process an a particular order: FIFO and FILO.
+A queue is just a list of elements that must be processed in a particular order: FIFO and FILO.
 
-Today we are going to build a Queue system with FIFO approach for restorants: If a new clients arrives to the restorant it gets added into a queue, when it is his time to eat, he gets notified by email.
+Today we are going to build a Queue system with FIFO approach for restaurants: If a new clients arrives to the restaurant their phone number is added into a queue, when it is his time to eat, he gets notified by email.
 
 ## 📝 Instructions
 
