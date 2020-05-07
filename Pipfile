@@ -9,4 +9,4 @@ verify_ssl = true
 twilio = "*"
 
 [requires]
-python_version = "3.7.6"
+python_version = ">=python 3.5"
