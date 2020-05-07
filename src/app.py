@@ -46,4 +46,4 @@ What would you like to do (type a number and press Enter)?
         print("Bye bye!")
         stop = True
     else:
-        print("Invalid option "+str(option))
+        print("Not implemented yet or invalid option "+str(option))
