@@ -11,16 +11,32 @@ A queue is just a list of elements that must be processed in a particular order:
 
 Today we are going to build a Queue system with FIFO approach for restaurants: If a new clients arrives to the restaurant their phone number is added into a queue, when it is his time to eat, he gets notified by email.
 
+## 🌱  How to start this project
+
+1. This project comes with the necessary files to start working, but you have two options to start:
+
+a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-conditional-profile-card.git
+
+b) You can clone this repository on your local computer:
+
+```sh
+$ git clone https://github.com/breatheco-de/exercise-conditional-profile-card.git
+````
+2. Install dependency packages `$ pipenv install`
+
+3. Get inside the environment by typing `$ pipenv shell`
+
+4. You can run the current project by typing `$ python src/app.py`
+
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+ 
 ## 📝 Instructions
 
-1. Clone the [following boilerplate](https://github.com/breatheco-de/exercise-queue-management-cli)
-3. Install dependency packages `$ pipenv install`
-2. Get inside the environment by typing `$ pipenv shell`
-3. You can run the current project by typing `$ python src/app.py`
-4. Start coding! Update the app.py file to allow the user to manage a simple Queue: Add a person, Remove person, get current line (queue).
-5. The application also needs to be able to export the queue to a file named `queue.json`.
-6. The application must integrate with the twilio API to send an SMS every time a phone number is dequeued.
-7. Use the following data-structure to implement the queue:
+ Start coding! Update the app.py file to allow the user to manage a simple Queue: Add a person, Remove person, get current line (queue):
+ 
+ - The application also needs to be able to export the queue to a file named `queue.json`.
+ - The application must integrate with the twilio API to send an SMS every time a phone number is dequeued.
+ - Use the following data-structure to implement the queue:
 
 ```python
 class Queue:
@@ -57,10 +73,10 @@ class Queue:
 
 This exercise will make you practice the following fundamentals:
 
-1. Executing python files from the command line.
-2. Get user input from the command line.
-3. Loops, conditionals and functions.
-4. Using plain-text files to store data.
-5. Complex Data Structures.
-6. Queue (FIFO vs FILO)
-7. SMS.
+- Executing python files from the command line.
+- Get user input from the command line.
+- Loops, conditionals and functions.
+- Using plain-text files to store data.
+- Complex Data Structures.
+- Queue (FIFO vs FILO)
+- SMS.
