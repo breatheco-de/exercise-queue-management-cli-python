@@ -30,7 +30,7 @@ $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
 
 3. Ingresar al entorno con el comando `$ pipenv shell`
 
-4. Puedes ejecutar ru proyecto con el comano `$ python src/app.py`
+4. Puedes ejecutar tu proyecto con el comando `$ python src/app.py`
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
  
