@@ -15,12 +15,11 @@ Today we are going to build a Queue system with FIFO approach for restaurants: I
 
 1. This project comes with the necessary files to start working, but you have two options to start:
 
-a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-conditional-profile-card.git
-
+a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-queue-management-cli-python
 b) You can clone this repository on your local computer:
 
 ```sh
-$ git clone https://github.com/breatheco-de/exercise-conditional-profile-card.git
+$ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
 ````
 2. Install dependency packages `$ pipenv install`
 
