@@ -5,14 +5,13 @@ Creemos un sistema de espera: Los sistemas de espera o queue system son muy usad
 
 Los sistemas de espera también pueden usarse para equiparar la carga en varias aplicaciones como:
 - Establecer prioridades en las solicitudes entrantes de los servidores web
-- Inmigración y aplicaciones a visas que requieren de prioridad.Immigration and visa applicantions that need to be prioritized.
+- Inmigración y aplicaciones a visas que requieren de prioridad.
 - Paquetes Network.
 - etc.
 
 Una cola es solo una lista de elementos que debe ser procesada en un orden en particular: FIFO o FILO
 
 Hoy vamos a construir un Sistema de cola (o espera) con enfoque FIFO para los restaurantes: Si llega un nuevo cliente al restaurante, se añade su teléfono a la cola, cuando se hora se sentarse a la mesa, el cliente será notificado por email.
-
 
 
 ## 🌱  Cómo iniciar este proyecto
@@ -36,10 +35,12 @@ $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
  
 ## 📝 Instrucciones
 
- ¡Empieza a codificar! Actualiza el archivo app.py para que el usuario pueda gestionar o manejar un cola simple: Añadir a una persona, Eliminar a una persona, de quien es el turno (cola):
+ ¡Empieza a codificar! Actualiza el archivo app.py para que el usuario pueda gestionar o manejar un cola simple: 
  
+ - Añadir a una persona, 
+ - Eliminar a una persona, de quien es el turno (cola):
  - La aplicación también tiene que exportar la cola a un archivo llamado `queue.json`.
- - La aplicación debe integrar la aPI twilio para enviarle un un SMS cada vez que un número de teléfono salgThe application must integrate with the twilio API to send an SMS every time a phone number is dequeued.
+ - La aplicación debe integrar la API twilio para enviarle un un SMS cada vez que un número de teléfono salga de la lista de espera (cola)
  - Usa la siguiente estructura de datos para implementar la cola:
 
 ```python
@@ -71,7 +72,6 @@ class Queue:
 5. El usuario debe recibir un SMS a la hora de comer.
 6. Si el usuario elige ver el estado completo de la cola, se imprime una lista de todos con su posición respectiva en la cola.
 7. Si el usuario elige exportar la cola completa, se crea un archivo JSON con una lista de todos.
-
 
 
 ## 📖 Fundamentos
