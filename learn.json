@@ -11,5 +11,7 @@
 	"technologies": ["terminal", "python", "json", "static files", "logging", "data-structures", "queue-data-structure"],
 	"talents": [
 		{ "badge": "identator", "points": 10 }
-	]
+	],
+    "autoPlay": false,
+    "projectType": "project"
 }
