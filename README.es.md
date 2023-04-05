@@ -1,7 +1,8 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Queue Management System CLI
+<!--hide-->
+# CLI del Sistema de Gestión de Colas
+<!--endhide-->
 
-
-Creemos un sistema de espera: Los sistemas de espera o queue system son muy usados en las Instituciones Gubernamentales, aeropuertos, bancos y muchos otros lugares que buscan organizar el táfico entrante.
+Creemos un sistema de espera: Los sistemas de espera o queue system son muy usados en las Instituciones Gubernamentales, aeropuertos, bancos y muchos otros lugares que buscan organizar el tráfico entrante.
 
 Los sistemas de espera también pueden usarse para equiparar la carga en varias aplicaciones como:
 - Establecer prioridades en las solicitudes entrantes de los servidores web
@@ -35,7 +36,7 @@ $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
  
 ## 📝 Instrucciones
 
- ¡Empieza a codificar! Actualiza el archivo app.py para que el usuario pueda gestionar o manejar un cola simple: 
+ ¡Empieza a codificar! Actualiza el archivo app.py para que el usuario pueda gestionar o manejar una cola simple: 
  
  - Añadir a una persona, 
  - Eliminar a una persona, de quien es el turno (cola):
