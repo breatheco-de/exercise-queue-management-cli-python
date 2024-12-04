@@ -11,6 +11,8 @@ A queue is just a list of elements that must be processed in a particular order:
 
 Today we are going to build a Queue system with FIFO approach for restaurants: If a new clients arrives to the restaurant their phone number is added into a queue, when it is his time to eat, he gets notified by email.
 
+<onlyfor saas="false" withBanner="false">
+ 
 ## 🌱  How to start this project
 
 1. This project comes with the necessary files to start working, but you have two options to start:
@@ -28,6 +30,8 @@ $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
 4. You can run the current project by typing `$ python src/app.py`
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+
+</onlyfor>
  
 ## 📝 Instructions
 
