@@ -15,19 +15,22 @@ Today we are going to build a Queue system with FIFO approach for restaurants: I
  
 ## 🌱  How to start this project
 
-1. This project comes with the necessary files to start working, but you have two options to start:
+This project comes with the necessary files to start working, but you have two options to start:
 
-a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-queue-management-cli-python.
+a) Open this link in your browser with [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod): https://s.4geeks.com/start?repo=breatheco-de/exercise-queue-management-cli-python
 
 b) You can clone this repository on your local computer:
 ```sh
 $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
 ````
-2. Install dependency packages `$ pipenv install`
 
-3. Get inside the environment by typing `$ pipenv shell`
+### Steps
 
-4. You can run the current project by typing `$ python src/app.py`
+1. Install dependency packages `$ pipenv install`
+
+2. Get inside the environment by typing `$ pipenv shell`
+
+3. You can run the current project by typing `$ python src/app.py`
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
