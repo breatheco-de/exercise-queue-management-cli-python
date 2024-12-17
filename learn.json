@@ -8,6 +8,7 @@
 	"status": "published",
 	"live-url": "",
 	"duration" : 8,
+	"template_url": "self",
 	"technologies": ["terminal", "python", "json", "static files", "logging", "data-structures", "queue-data-structure"],
 	"talents": [
 		{ "badge": "identator", "points": 10 }
