@@ -1,7 +1,13 @@
 {
 	"slug" : "queue-management-cli-python",
-	"title" : "Queue Managment CLI with Python",
-	"description": "Terminal-based queue management application",
+	"title" : {
+		"us": "Queue Managment CLI with Python",
+		"es": "CLI de gestión de colas con Python"
+	},
+	"description" : {
+		"us":"Build a Queue Management System using Python CLI! Simulate a restaurant waitlist with a FIFO queue. Add, remove, and list users, send SMS notifications with Twilio, and export the queue to a JSON file. A hands-on way to learn queues, data structures, and CLI interactions.",
+		"es":"¡Construye un Sistema de Gestión de Filas usando Python por línea de comandos! Simula una lista de espera en un restaurante con una cola FIFO. Agrega, elimina y lista usuarios, envía notificaciones por SMS con Twilio y exporta la cola a un archivo JSON. Ideal para aprender estructuras de datos y CLI."
+    },
 	"difficulty": "intermediate",
 	"preview": "https://github.com/breatheco-de/exercise-queue-management-cli-python/blob/master/preview.gif?raw=true",
     "solution": "https://github.com/breatheco-de/exercise-queue-management-cli-python/tree/solution",
@@ -14,5 +20,8 @@
 		{ "badge": "identator", "points": 10 }
 	],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+    "telemetry": {
+	    	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=161"
+	  }
 }
