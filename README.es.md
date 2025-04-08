@@ -13,7 +13,7 @@ Una cola es solo una lista de elementos que debe ser procesada en un orden en pa
 
 Hoy vamos a construir un Sistema de cola (o espera) con enfoque FIFO para los restaurantes: Si llega un nuevo cliente al restaurante, se añade su teléfono a la cola, cuando se hora se sentarse a la mesa, el cliente será notificado por email.
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
  
 ## 🌱  Cómo iniciar este proyecto
 
@@ -36,7 +36,7 @@ $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
-</onlyfor>
+</how-to-start>
  
 ## 📝 Instrucciones
 
