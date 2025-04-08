@@ -1,9 +1,12 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Queue Management System CLI
+<!--hide-->
+# Queue Management System CLI
+<!--endhide-->
 
-Lets create a Queue System: Queue system are heavily used in Goverment institutions, airports, banks and many other venues looking to organize the incoming traffic.
+Let's create a Queue System: Queue system are heavily used in Government institutions, airports, banks and many other venues looking to organize the incoming traffic.
+
 Queue systems can also be used to load balancing for different applications like:
 - Establishing priorities in web servers incoming requests.
-- Immigration and visa applicantions that need to be prioritized.
+- Immigration and visa applications that need to be prioritized.
 - Network packages.
 - etc.
 
@@ -20,10 +23,11 @@ This project comes with the necessary files to start working, but you have two o
 a) Open this link in your browser with [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod): https://s.4geeks.com/start?repo=breatheco-de/exercise-queue-management-cli-python
 
 b) You can clone this repository on your local computer:
+  
 ```sh
 $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
-````
-
+```
+  
 ### Steps
 
 1. Install dependency packages `$ pipenv install`
@@ -70,10 +74,10 @@ class Queue:
 1. The CLI show the menu, and the user selects the option to add "Bob" into the queue.
 2. The application ads Bob and notifies confirmation on the console and must say how many people are in front of him on the line.
 3. The system now shows the menu (starts again) awaiting for the user to pick another option.
-4. If the user picks the option to remove from the Queue, the next person on the queue gets eliminated and confirmation message shows.
+4. If the user picks the option to remove from the Queue, the next person on the queue gets eliminated and a confirmation message shows.
 5. The user must receive an SMS when it is his/her time to eat.
 6. If the user picks to see the entire queue state, a list of everyone gets printed with their respective position in the queue.
-7. If the user picks to export entire queue, a JSON file with a list of everyone gets created.
+7. If the user picks to export the entire queue, a JSON file with a list of everyone gets created.
 
 ## 📖 Fundamentals
 
