@@ -14,25 +14,30 @@ Una cola es solo una lista de elementos que debe ser procesada en un orden en pa
 
 Hoy vamos a construir un Sistema de cola (o espera) con enfoque FIFO para los restaurantes: Si llega un nuevo cliente al restaurante, se añade su teléfono a la cola, cuando se hora se sentarse a la mesa, el cliente será notificado por email.
 
-
+<how-to-start>
+ 
 ## 🌱  Cómo iniciar este proyecto
 
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
-a) Abrir este link con Gitpod (recomendada) en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-queue-management-cli-python
+a) Abrir este enlace con [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod) en tu navegador: https://s.4geeks.com/start?repo=breatheco-de/exercise-queue-management-cli-python
 
 b) Clonar este repositorio localmente en tu computador:
 ```sh
 $ git clone https://github.com/breatheco-de/exercise-queue-management-cli-python
 ```
 
-2. Intalar las dependencias de los paquetes con el comando`$ pipenv install`
+### Pasos
 
-3. Ingresar al entorno con el comando `$ pipenv shell`
+1. Intalar las dependencias de los paquetes con el comando`$ pipenv install`
 
-4. Puedes ejecutar tu proyecto con el comando `$ python src/app.py`
+2. Ingresar al entorno con el comando `$ pipenv shell`
+
+3. Puedes ejecutar tu proyecto con el comando `$ python src/app.py`
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+
+</how-to-start>
  
 ## 📝 Instrucciones
 
