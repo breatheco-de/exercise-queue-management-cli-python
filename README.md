@@ -69,7 +69,7 @@ class Queue:
         return len(self.queue) 
 ```
 
-## Example worlflow
+## Example workflow
 
 1. The CLI show the menu, and the user selects the option to add "Bob" into the queue.
 2. The application ads Bob and notifies confirmation on the console and must say how many people are in front of him on the line.
